@@ -1,0 +1,249 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.global-header {
+  background-color: #3a565c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px 15px 10px 15px;
+  width: auto;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  top: 15px;
+}
+
+a {
+  font-size: 14px;
+  color: white;
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+}
+.header-left {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/*.nav {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding-right: 0px;
+}
+
+@media (min-width: 1085px) {
+  header {
+    display: flex;
+  }
+}*/
+
+/*.placeholder {
+  background-color: white;
+  height: auto;
+  display: flex;
+  border: 1px blue solid;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}*/
+
+.hero-image {
+  background-image: url("https://assets.codepen.io/4730679/Asset+3%402x.png");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-text img {
+  text-align: center;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  color: white;
+}
+
+.hero-text h1 {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 30px 0px;
+  font-family: "Cormorant SC", serif;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+.hero-text p {
+  margin: 0px 0px 0px 0px;
+  font-size: 20px;
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  margin: 0px 0px 30px 0px;
+  color: black;
+  background-color: #698480;
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  font-family: "Cormorant SC", serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: whitesmoke;
+}
+
+.image-mask-darken {
+  position: relative;
+}
+
+.image-mask-darken:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  content: "";
+}
+.main {
+  height: 220px;
+  margin: 60px 120px 0px 120px;
+}
+.main h1 {
+  text-align: center;
+  padding: 0px 0px;
+  margin: 0px 0px 20px 0px;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+hr {
+  border: 1px solid forestgreen;
+  width: 60%;
+}
+
+.main p {
+  margin: 50px 0px 20px 0px;
+  text-align: center;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.airbnb-neighborhood-container {
+  padding: 50px 0px 0px 0px;
+}
+
+.airbnb-three-neighborhood-container {
+  justify-content: center;
+  display: flex;
+  background-color: #fdf3ed;
+  margin: 0px 0px 0px 0px;
+  padding: 60px 0px 60px 0px;
+}
+
+.airbnb-indiv-neighborhood-container {
+  margin: 3%;
+  width: 250px;
+}
+
+.airbnb-indiv-neighborhood-header {
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 250px; /* approximate estimate */
+  justify-content: space-around;
+  text-align: center;
+}
+
+.fitzroy {
+  background-image: url("https://assets.codepen.io/4730679/pastor%402x.png");
+  transform: translatey(0px);
+}
+.st-kilda {
+  background-image: url("https://assets.codepen.io/4730679/Asset+2%402x_1.png");
+}
+.cbd {
+  background-image: url("https://assets.codepen.io/4730679/Asset+1%402x_3.png");
+}
+
+.airbnb-indiv-neighborhood-header-content {
+  position: absolute;
+}
+
+.airbnb-indiv-neighborhood-title {
+  font-size: 24px;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 700;
+}
+.covid-update {
+  height: 70px;
+  background-color: #f2cc97;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 600px;
+  text-align: center;
+  position: relative;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  color: white;
+}
+.covid {
+  display: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: "Cormorant SC", serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #3a565c;
+  position: relative;
+  top: 10%;
+  left: 0%;
+}
+.covid p {
+  font-weight: 400;
+  font-size: 20px;
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+}
