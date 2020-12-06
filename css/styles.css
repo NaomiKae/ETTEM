@@ -1,25 +1,20 @@
 body,
 html {
   height: 100%;
-  margin: 0;
+  margin: 0px;
 }
 
-.global-header {
+.header-nav {
   background-color: #3a565c;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
   padding: 10px 15px 10px 15px;
-  width: auto;
+  /*border:3px red solid;*/
 }
 
-.logo {
-  display: flex;
-  position: relative;
-  top: 15px;
-}
-.global-header a {
+.header-nav a {
   font-size: 14px;
   color: white;
   padding: 0px 20px 0px 20px;
@@ -38,32 +33,27 @@ a:hover {
 a:active {
   color: red;
 }
-.header-left {
-  display: flex;
+.header-nav-left {
+  /*display: flex;
   justify-content: space-evenly;
   align-items: center;
-  display: flex;
+  display: flex;*/
 }
-
-.header-right {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+.logo {
+  position: relative;
+  top: 15px;
+  margin: 0px 20px 0px 20px;
 }
-/*.nav {
-  display: none;
-  flex-direction: row;
+.header-nav-right {
   align-items: center;
-  margin: 0;
-  padding-right: 0px;
+  justify-content: center;
 }
 
 @media (min-width: 1085px) {
   header {
     display: flex;
   }
-}*/
+}
 
 /*.placeholder {
   background-color: white;
