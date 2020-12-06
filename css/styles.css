@@ -256,39 +256,38 @@ hr {
   left: 0%;
   color: black;
 }
+.prayer-section {
+  display: flex;
+  padding: 10px 0px 50px 0px;
+}
 .prayer-container {
   display: flex;
-  height: 250px;
-  border: 3px purple solid;
-  margin: 70px 100px 100px 100px;
+  border: 4px purple solid;
+  margin: 0px 100px 0px 100px;
 }
-.prayer-grid {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px 30px 0px 30px;
+
+.prayer-content {
+  padding: 30px 40px 10px 40px;
 }
-.prayer-grid-item {
-  padding: 30px 20px 10px 0px;
-  /*b2order: 3px green solid;*/
-}
-.grid-item-text {
+.prayer-text {
   text-align: center;
   font-size: 16px;
   color: #3a565c;
   font-size: 20px;
   font-family: "Cormorant Infant", serif;
   font-weight: 500;
+  /*border: 3px red solid;*/
 }
-.grid-item-text span {
+.prayer-text span {
   font-size: 25px;
   font-weight: 800;
 }
-.grid-item-text-large {
+.prayer-text-large {
   text-align: center;
   font-size: 32px;
   font-family: "Cormorant Infant", serif;
   font-weight: 700;
+  /*border: 3px red solid;*/
 }
 
 footer {
