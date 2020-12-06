@@ -19,12 +19,24 @@ html {
   position: relative;
   top: 15px;
 }
-
-a {
+.global-header a {
   font-size: 14px;
   color: white;
   padding: 0px 20px 0px 20px;
   text-decoration: none;
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: orange;
+  text-decoration: none;
+  transform: translatey(-2px);
+}
+a:active {
+  color: red;
 }
 .header-left {
   display: flex;
@@ -214,7 +226,7 @@ hr {
   font-weight: 700;
 }
 .covid-update {
-  height: 70px;
+  height: 80px;
   background-color: #f2cc97;
   display: flex;
   justify-content: center;
@@ -226,15 +238,14 @@ hr {
   top: 0%;
   left: 50%;
   transform: translate(-50%, -30%);
-  color: white;
 }
 .covid {
   display: absolute;
   justify-content: center;
   align-items: center;
   font-family: "Cormorant SC", serif;
+  font-size: 24px;
   font-weight: 700;
-  font-size: 20px;
   color: #3a565c;
   position: relative;
   top: 10%;
@@ -242,8 +253,71 @@ hr {
 }
 .covid p {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 22px;
   position: relative;
   bottom: 0%;
   left: 0%;
+  color: black;
+}
+.prayer-container {
+  display: flex;
+  height: 250px;
+  border: 3px purple solid;
+  margin: 70px 100px 100px 100px;
+}
+.prayer-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 30px 0px 30px;
+}
+.prayer-grid-item {
+  padding: 30px 20px 10px 0px;
+  /*b2order: 3px green solid;*/
+}
+.grid-item-text {
+  text-align: center;
+  font-size: 16px;
+  color: #3a565c;
+  font-size: 20px;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 500;
+}
+.grid-item-text span {
+  font-size: 25px;
+  font-weight: 800;
+}
+.grid-item-text-large {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 700;
+}
+
+footer {
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+  padding: 0px 0px 20px 0px;
+}
+.address {
+  font-size: 20px;
+  font-family: "Cormorant SC", serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+.contact-info {
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+  font-size: ;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.email {
+  padding-right: 20px;
+}
+
+.phone {
+  padding-left: 20px;
 }
