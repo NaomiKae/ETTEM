@@ -1,0 +1,259 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.header-nav {
+  background-color: #3a565c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px 15px 10px 15px;
+  /*border:3px red solid;*/
+}
+
+.header-nav a {
+  /*display: flex;*/
+  font-size: 14px;
+  color: white;
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+}
+a:hover {
+  color: orange;
+  text-decoration: none;
+  transform: translatey(-2px);
+}
+a:active {
+  color: red;
+}
+.header-nav-left {
+  /*display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+   border:3px greenyellow solid;*/
+}
+.logo {
+  position: relative;
+  top: 15px;
+  margin: 0px 20px 0px 20px;
+  /* border:3px greenyellow solid;*/
+}
+
+.header-nav-right {
+  align-items: center;
+  justify-content: center;
+  /*border:3px greenyellow solid;*/
+}
+
+@media (min-width: 1085px) {
+  .header-nav {
+    display: flex;
+  }
+}
+/*start of page*/
+.main-container {
+  background-color: #fdf3ed;
+  display: flex;
+}
+.main-about-section {
+  display: flex;
+  padding: 0px 80px 0px 60px;
+  margin: 20px 40px 30px 20px;
+}
+.about-text {
+  padding: 10px 60px 0px 20px;
+}
+.about-text h1 {
+  text-decoration: underline orange;
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+  padding: 10px 20px 0px 10px;
+}
+.about-text p {
+  text-align: justify;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 500;
+}
+.about-family {
+  margin: 0px 0px -20px 0px;
+}
+.family-photo {
+  position: relative;
+  top: 75px;
+}
+/*pastor section*/
+.middle-section {
+  margin-top: 60px;
+}
+.pastors-container {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.pastor {
+  width: 27%;
+}
+
+.pastor:hover {
+}
+
+.pastor h3 {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+}
+.pastor img {
+  max-width: 250px;
+  margin: auto;
+  padding-left: 16px;
+}
+.pastor-container {
+  padding: 0px 16px;
+  text-align: justify;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 600;
+}
+
+.copastor {
+  width: 27%;
+}
+
+.copastor:hover {
+}
+
+.copastor h3 {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+}
+
+.copastor img {
+  max-width: 250px;
+  padding-left: 16px;
+}
+.copastor-container {
+  padding: 0px 6px;
+  text-align: justify;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 600;
+}
+.copastor {
+  margin: 0px 0px 50px 50px;
+}
+
+/* bottom third of page*/
+.staff-container {
+  display: flex;
+  justify-content: center;
+  /*border: 3px blue solid;*/
+  padding: 0px 20px 20px 20px;
+}
+.staff-title {
+  position: absolute;
+  font-size: 28px;
+  font-family: "Cormorant SC", serif;
+  font-weight: 600;
+  margin: 20px 0px 0px 0px;
+}
+
+.about-staff-section {
+  display: flex;
+  justify-content: center;
+  margin: 0px 80px 0px 80px;
+  padding: 80px 80px 40px 80px;
+  background-color: #fdf3ed;
+  /*border: 3px green solid;*/
+  grid-gap: 20%;
+}
+
+.staff-left {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  /*border: 3px blue solid;*/
+}
+.left-card {
+  transition: 0.3s;
+  max-width: 275px;
+}
+.left-card-container {
+  padding: 0px 0px;
+  text-align: center;
+  font-family: "Cormorant SC", serif;
+  font-weight: 600;
+}
+.left-card-container h4 {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 600;
+}
+.left-card-container p {
+  font-family: "Cormorant SC", serif;
+  font-weight: 400;
+}
+.staff-right {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  /*border: 3px blue solid;*/
+}
+.right-card {
+  transition: 0.3s;
+  max-width: 275px;
+}
+
+/* On mouse-over, add a deeper shadow 
+.right-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.right-card-container {
+  padding: 2px 0px 2px 0px;
+  text-align: center;
+  font-family: "Cormorant SC", serif;
+  font-weight: 600;
+}
+.right-card-container h4 {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 600;
+}
+.right-card-container p {
+  font-family: "Cormorant SC", serif;
+  font-weight: 400;
+}
+
+footer {
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+  padding: 0px 0px 20px 0px;
+  color: #3a565c;
+}
+.address {
+  font-size: 20px;
+  font-family: "Cormorant SC", serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+.contact-info {
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+  font-size: ;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.email {
+  padding-right: 20px;
+}
+
+.phone {
+  padding-left: 20px;
+}
