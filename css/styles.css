@@ -222,6 +222,12 @@ hr {
   font-family: "Cormorant Infant", serif;
   font-weight: 700;
 }
+.airbnb-indiv-neighborhood-title a {
+  font-size: 24px;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 700;
+  color: white;
+}
 .covid-update {
   height: 80px;
   background-color: #f2cc97;
