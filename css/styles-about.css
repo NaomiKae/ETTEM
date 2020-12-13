@@ -67,7 +67,9 @@ a:active {
   margin: 20px 40px 30px 20px;
 }
 .about-text {
-  padding: 10px 60px 0px 20px;
+  margin-left: 100px;
+  padding: 10px 10px 0px 40px;
+  max-width: 550px;
 }
 .about-text h1 {
   text-decoration: underline orange;
@@ -79,6 +81,7 @@ a:active {
   text-align: justify;
   font-family: "Cormorant Infant", serif;
   font-weight: 500;
+  padding: 0px 30px 0px 10px;
 }
 .about-text a {
   text-decoration: underline orange;
@@ -234,6 +237,11 @@ a:active {
 .right-card-container p {
   font-family: "Cormorant SC", serif;
   font-weight: 400;
+}
+
+hr {
+  border: 1px solid #3a565c;
+  width: 10%;
 }
 
 footer {

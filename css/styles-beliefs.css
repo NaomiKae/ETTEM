@@ -78,9 +78,10 @@ a:active {
   margin-bottom: 20px;
 }
 .faq-title h1 {
-  font-family: "Cormorant Infant", serif;
-  font-weight: 600;
-  font-size: 28px;
+  text-decoration: underline orange;
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+  font-size: 32px;
 }
 .faq-title p {
   font-family: "Cormorant Infant", serif;
@@ -217,7 +218,7 @@ textarea {
   font-size: 18px;
 }
 hr {
-  border: 1px solid forestgreen;
+  border: 1px solid #3a565c;
   width: 10%;
 }
 footer {
