@@ -1,0 +1,167 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.header-nav {
+  background-color: #3a565c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px 15px 10px 15px;
+  /*border:3px red solid;*/
+}
+
+.header-nav a {
+  /*display: flex;*/
+  font-size: 14px;
+  color: white;
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+}
+a:hover {
+  color: orange;
+  text-decoration: none;
+  transform: translatey(-2px);
+}
+a:active {
+  color: red;
+}
+.header-nav-left {
+  /*display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+   border:3px greenyellow solid;*/
+}
+.logo {
+  position: relative;
+  top: 15px;
+  margin: 0px 20px 0px 20px;
+  /* border:3px greenyellow solid;*/
+}
+
+.header-nav-right {
+  align-items: center;
+  justify-content: center;
+  /*border:3px greenyellow solid;*/
+}
+
+@media (min-width: 1085px) {
+  .header-nav {
+    display: flex;
+  }
+}
+
+.main-container {
+  display: flex;
+  margin: 0px 30px 0px 30px;
+  padding: 0px 20px 0px 20px;
+  /*border: 4px green solid;*/
+}
+.top-history-section {
+  /*border: 2px green solid;*/
+}
+.top-history-text {
+  /*border: 2px green solid;*/
+}
+.church-name-small {
+  position: relative;
+  top: 20px;
+  font-family: "Cormorant SC", serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #3a565c;
+  /*border: 2px green solid;*/
+}
+.top-history-text h1 {
+  text-decoration: underline orange;
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+  font-size: 38px;
+  color: #3a565c;
+}
+.color-block {
+  position: relative;
+  right: 50px;
+  background-color: #fdf3ed;
+  padding-right: 30px;
+}
+.top-paragraph {
+  position: relative;
+  left: 46px;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0px 20px 0px 20px;
+  padding: 25px 20px 25px 20px;
+  color: #3a565c;
+  /*border: 2px green solid;*/
+}
+.middle-section {
+  display: flex;
+  margin: 30px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
+}
+
+/* Clear floats after the columns */
+/*.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
+
+.bulk-history-text {
+  float: left;
+  width: 50%;
+  flex: 50%;
+
+  font-family: "Cormorant Infant", serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.bulk-history-text span {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+hr {
+  border: 1px solid forestgreen;
+  width: 30%;
+}
+
+footer {
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+  padding: 10px 0px 20px 0px;
+  color: #3a565c;
+}
+.address {
+  font-size: 20px;
+  font-family: "Cormorant SC", serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+.contact-info {
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+  font-size: ;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.email {
+  padding-right: 20px;
+}
+
+.phone {
+  padding-left: 20px;
+}
