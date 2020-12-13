@@ -22,6 +22,9 @@ html {
   font-family: "Cormorant SC", serif;
   font-weight: 500;
 }
+.header-nav a:visited {
+  color: white;
+}
 a {
   text-decoration: none;
 }
@@ -33,6 +36,7 @@ a:hover {
 a:active {
   color: red;
 }
+
 .header-nav-left {
   /*display: flex;
   justify-content: space-evenly;
@@ -262,13 +266,21 @@ hr {
   left: 0%;
   color: black;
 }
+.covid a:visited {
+  color: #3a565c;
+}
+.covid a:hover {
+  color: orange;
+  text-decoration: none;
+  transform: translatey(-2px);
+}
 .prayer-section {
   display: flex;
   padding: 10px 0px 50px 0px;
 }
 .prayer-container {
   display: flex;
-  border: 4px purple solid;
+  border: 4px #5e1340 solid;
   margin: 0px 100px 0px 100px;
 }
 
@@ -294,6 +306,14 @@ hr {
   font-family: "Cormorant Infant", serif;
   font-weight: 700;
   /*border: 3px red solid;*/
+}
+.prayer-text-large a:visited {
+  color: #3a565c;
+}
+.prayer-text-large a:hover {
+  color: orange;
+  text-decoration: none;
+  transform: translatey(-2px);
 }
 
 footer {
