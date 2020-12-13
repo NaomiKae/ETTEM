@@ -80,6 +80,13 @@ a:active {
   font-family: "Cormorant Infant", serif;
   font-weight: 500;
 }
+.about-text a {
+  text-decoration: underline orange;
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+  padding: 10px 20px 0px 10px;
+  color: black;
+}
 .about-family {
   margin: 0px 0px -20px 0px;
 }
