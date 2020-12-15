@@ -1,0 +1,342 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.header-nav {
+  background-color: #3a565c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px 15px 10px 15px;
+  /*border:3px red solid;*/
+}
+
+.header-nav a {
+  /*display: flex;*/
+  font-size: 14px;
+  color: white;
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+}
+a:hover {
+  color: orange;
+  text-decoration: none;
+  transform: translatey(-2px);
+}
+a:active {
+  color: red;
+}
+.header-nav-left {
+  /*display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+   */
+}
+.logo {
+  position: relative;
+  top: 15px;
+  margin: 0px 20px 0px 20px;
+  /* border:3px greenyellow solid;*/
+}
+
+.header-nav-right {
+  align-items: center;
+  justify-content: center;
+  /*border:3px greenyellow solid;*/
+}
+
+@media (min-width: 1085px) {
+  .header-nav {
+    display: flex;
+  }
+}
+
+.activities-container {
+  margin: 40px 0px 0px 0px;
+  padding: 10px 15px 30px 15px;
+}
+.activities-container h2 {
+  text-decoration: underline orange;
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+  font-size: 32px;
+  padding: 0px 0px 20px 30px;
+}
+.activities-grid {
+  /*border: 2px red solid;*/
+}
+.activities-grid-row-1,
+.activities-grid-row-2,
+.activities-grid-row-3 {
+  display: flex;
+  justify-content: space-around;
+  /*border: 2px red solid;*/
+  margin: 40px 0px 20px 0px;
+}
+.activities-grid-item {
+  /*display: flex;*/
+  /*border: 4px green solid;*/
+  display: inline-flex;
+}
+.activities-grid-item img {
+  display: flex;
+  /*border: 2px red solid;*/
+}
+.description {
+  /*border: 2px red solid;*/
+  max-width: 300px;
+  padding: 0px 20px 0px 20px;
+}
+.description h4 {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #3a565c;
+}
+.description p {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+/*weekly schedule*/
+.schedule-container {
+  padding: 30px 40px 30px 40px;
+  background-color: #fdf3ed;
+}
+.schedule-container-title {
+  display: flex;
+  text-decoration: underline orange;
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #3a565c;
+  margin-bottom: 20px;
+}
+.schedule {
+  padding: 0px 40px 30px 40px;
+}
+.schedule h4 {
+  font-family: "Cormorant SC", serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #3a565c;
+}
+.schedule-block {
+  /*border: 4px green solid;*/
+}
+.schedule-block h5 {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #3a565c;
+}
+.schedule-block p {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.schedule-block-suspended {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #3a565c;
+}
+
+.monthly-service {
+  width: auto;
+  border: 2px #3a565c solid;
+  padding: 20px 40px 20px 40px;
+}
+.monthly-service-text {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+/*slideshow*/
+.bulletin-section {
+  border: 2px red solid;
+  margin: 10px 0px;
+}
+.bulletin-section h4 {
+  border: 2px red solid;
+  text-align: center;
+  font-family: "Cormorant SC", serif;
+  font-weight: 400;
+  font-size: 28px;
+}
+.bulletin-slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 500px) {
+  .bulletin-slideshow-container {
+    margin-top: 20px;
+  }
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 40px 12px;
+  position: ;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: calder-shadow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@media screen and (max-width: 500px) {
+  .text {
+    color: darkblue;
+    font-size: 28px;
+    padding: 10px 0px 10px 0px;
+  }
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: lightgray;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-family: calder-shadow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*Mobile device*/
+@media screen and (max-width: 500px) {
+  .numbertext {
+    color: darkblue;
+    font-size: 18px;
+  }
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: lightgray;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*footer*/
+hr {
+  border: 1px solid forestgreen;
+  width: 10%;
+}
+footer {
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+  padding: 0px 0px 20px 0px;
+  color: #3a565c;
+}
+.address {
+  font-size: 20px;
+  font-family: "Cormorant SC", serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+.contact-info {
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+  font-size: ;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.email {
+  padding-right: 20px;
+}
+
+.phone {
+  padding-left: 20px;
+}
