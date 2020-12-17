@@ -56,32 +56,37 @@ a:active {
     display: flex;
   }
 }
-/*start of page*/
-.main-container {
+.color-block {
   background-color: #fdf3ed;
+  height: 85%;
+}
+.whole-page {
+  position: relative;
+  bottom: 450px;
+}
+.main-container {
+  background-color: ;
   display: flex;
 }
 .main-about-section {
-  display: flex;
-  padding: 0px 80px 0px 60px;
-  margin: 20px 40px 30px 20px;
+  margin: 0px 40px 0px 40px;
+  border: 2px green solid;
 }
 .about-text {
-  margin-left: 100px;
-  padding: 10px 10px 0px 40px;
-  max-width: 550px;
+  margin: 0px 20px 0px 20px;
 }
 .about-text h1 {
   text-decoration: underline orange;
   font-family: "Cormorant SC", serif;
   font-weight: 500;
-  padding: 10px 20px 0px 10px;
+  padding: 0px 20px 0px 10px;
 }
+
 .about-text p {
   text-align: justify;
   font-family: "Cormorant Infant", serif;
   font-weight: 500;
-  padding: 0px 30px 0px 10px;
+  font-size: 18px;
 }
 .about-text a {
   text-decoration: underline orange;
@@ -90,25 +95,50 @@ a:active {
   padding: 10px 20px 0px 10px;
   color: black;
 }
+.church-history {
+  margin: 20px 50px 30px 50px;
+  /*border: 2px green solid;*/
+  font-size: 16px;
+  text-align: justify;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 500;
+  /*position: relative;
+  bottom: 50px;*/
+}
+.church-history h2 {
+  text-decoration: underline orange;
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+}
+.read-more a {
+  text-decoration: none;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 600;
+  font-size: 19px;
+}
 .about-family {
   margin: 0px 0px -20px 0px;
+  /*border: 2px green solid;*/
 }
 .family-photo {
   position: relative;
-  top: 75px;
+  top: 110px;
+  /*border: 2px green solid;*/
+  margin: 0px 70px 0px 0px;
 }
+
 /*pastor section*/
 .middle-section {
   margin-top: 60px;
+  display: flex;
 }
 .pastors-container {
   display: flex;
   justify-content: center;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 20px 0px 20px;
   margin: 0px 0px 0px 0px;
 }
 .pastor {
-  width: 27%;
 }
 
 .pastor:hover {
@@ -123,17 +153,18 @@ a:active {
 .pastor img {
   max-width: 250px;
   margin: auto;
-  padding-left: 16px;
+  padding: 0 25%;
 }
 .pastor-container {
-  padding: 0px 16px;
+  padding: 0px 50px;
+  max-width: 400px;
   text-align: justify;
   font-family: "Cormorant Infant", serif;
   font-weight: 600;
 }
 
 .copastor {
-  width: 27%;
+  width: 50%;
 }
 
 .copastor:hover {
@@ -148,18 +179,17 @@ a:active {
 
 .copastor img {
   max-width: 250px;
-  padding-left: 16px;
+  padding: 0 25%;
 }
 .copastor-container {
-  padding: 0px 6px;
+  padding: 0px 50px;
   text-align: justify;
   font-family: "Cormorant Infant", serif;
   font-weight: 600;
 }
 .copastor {
-  margin: 0px 0px 50px 50px;
+  margin: 0px 0px 50px 0px;
 }
-
 /* bottom third of page*/
 .staff-container {
   display: flex;
