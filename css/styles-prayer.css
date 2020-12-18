@@ -61,7 +61,7 @@ a:active {
   /*border: 4px green solid;*/
 }
 .top-history-section {
-  /*border: 2px green solid;*/
+  margin: 0px 10px 0px 100px;
 }
 .top-history-text {
   /*border: 2px green solid;*/
@@ -92,7 +92,7 @@ a:active {
 .form-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+
   margin: 60px 0px 30px 0px;
 }
 
