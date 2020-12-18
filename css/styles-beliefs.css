@@ -98,7 +98,7 @@ a:active {
 }
 
 .accordion {
-  background-color: #fffcf9;
+  background-color: #fdf3ed;
   color: #444;
   font-family: "Cormorant Infant", serif;
   font-weight: 600;
@@ -123,7 +123,7 @@ a:active {
 
 .active,
 .accordion:hover {
-  background-color: #fdf3ed;
+  background-color: #eedfd1;
   font-weight: bold;
 }
 
@@ -131,14 +131,14 @@ a:active {
   text-align: center;
   font-family: "Cormorant Infant", serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   padding: 30px 18px;
   background-color: white;
   display: none;
   overflow: hidden;
 }
 .questions-section {
-  text-align: center;
+  /*text-align: center;*/
   font-family: "Cormorant Infant", serif;
   font-weight: 400;
   margin-bottom: 40px;
@@ -151,21 +151,22 @@ a:active {
 .questions-text p {
   font-size: 20px;
   color: #3a565c;
+  text-align: center;
   /*border: 2px blue solid;*/
 }
 .form-accordion {
-  text-align: center;
   background-color: white;
   color: #3a565c;
   font-family: "Cormorant Infant", serif;
   font-weight: 600;
   font-size: 24px;
   cursor: pointer;
-  margin: -20px;
+  margin: 0px;
   width: 100%;
   border: none;
   outline: none;
   transition: 0.4s;
+  border: 2px blue solid;
   /*border: 2px blue solid;*/
 }
 .form-accordion:hover {
@@ -175,19 +176,27 @@ a:active {
   transition: 0.4s;
 }
 .form-panel {
-  margin: 10px 80px 0px 80px;
-  text-align: center;
+  margin: 40px 0px 0px 0px;
   font-family: "Cormorant Infant", serif;
   font-weight: 400;
   font-size: 16px;
-  padding: 40px 11px;
-  background-color: #fffcf9;
+  padding: 40px 50px;
+  max-width: 70%;
+  background-color: #fdf3ed;
   display: none;
   overflow: hidden;
+  border: 2px blue solid;
+  position: relative;
+  left: 12%;
 }
 
 .form-container {
+  display: flex;
+  border: 2px blue solid;
+  justify-content: center;
+  align-items: center;
 }
+
 .message {
 }
 input[type="submit"] {
@@ -199,7 +208,7 @@ input[type="submit"] {
   color: black;
   background-color: #698480;
   border-radius: 2px;
-  text-align: center;
+  align-content: center;
   cursor: pointer;
   color: white;
   font-family: "Cormorant SC", serif;
@@ -208,8 +217,8 @@ input[type="submit"] {
 }
 input[type="text"] {
   font-family: "Cormorant Infant", serif;
-  font-weight: 600;
-  width: 500px;
+  font-weight: 400;
+  width: 300px;
 }
 textarea {
   font-family: "Cormorant Infant", serif;
@@ -217,11 +226,8 @@ textarea {
   width: 500px;
   font-size: 18px;
 }
-label {
-  text-align: left;
-}
 hr {
-  border: 1px solid #3a565c;
+  border: 1px solid #698480;
   width: 10%;
 }
 footer {

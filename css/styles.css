@@ -104,7 +104,7 @@ a:active {
 }
 
 .hero-text p {
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 30px 0px;
   font-size: 20px;
   font-family: "Cormorant SC", serif;
   font-weight: 500;
@@ -115,7 +115,7 @@ a:active {
   outline: 0;
   display: inline-block;
   padding: 10px 25px;
-  margin: 0px 0px 30px 0px;
+  margin: 0px 0px 20px 0px;
   color: black;
   background-color: #698480;
   border-radius: 2px;
