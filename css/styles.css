@@ -131,6 +131,10 @@ a:active {
   background-color: #555;
   color: whitesmoke;
 }
+.hero-text a:visited {
+  background-color: #555;
+  color: whitesmoke;
+}
 
 .image-mask-darken {
   position: relative;
