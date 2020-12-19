@@ -166,7 +166,7 @@ a:active {
   border: none;
   outline: none;
   transition: 0.4s;
-  border: 2px blue solid;
+
   /*border: 2px blue solid;*/
 }
 .form-accordion:hover {
@@ -185,14 +185,14 @@ a:active {
   background-color: #fdf3ed;
   display: none;
   overflow: hidden;
-  border: 2px blue solid;
+
   position: relative;
   left: 12%;
 }
 
 .form-container {
   display: flex;
-  border: 2px blue solid;
+
   justify-content: center;
   align-items: center;
 }
