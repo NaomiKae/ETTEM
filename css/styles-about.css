@@ -79,7 +79,7 @@ a:active {
   text-decoration: underline orange;
   font-family: "Cormorant SC", serif;
   font-weight: 500;
-  padding: 0px 20px 0px 10px;
+  padding: 40px 20px 0px 10px;
 }
 
 .about-text p {
@@ -280,6 +280,10 @@ footer {
   font-weight: 500;
   padding: 0px 0px 20px 0px;
   color: #3a565c;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
 }
 .address {
   font-size: 20px;
