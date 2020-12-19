@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles-covid.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600&display=swap"
@@ -70,10 +71,23 @@
         </div>
       </section>
       <div class="covid-update">
-        <div class="covid"><a href="#">**COVID-19 UPDATE**</a>
-          <p><a href="#">Click here to see how we can keep each other safe.</a></p>
+        <div class="covid"> **COVID-19 UPDATE**
+          <p><a href="#" id="myBtn">Click here to see how we can keep each other safe.</a></p>
         </div>
+        </div>
+          <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+
+        <img
+          class="covid-img"
+          src="https://mediaprocessor.websimages.com/width/676/crop/0,0,676x769/www.etteministries.org/8ADFA877-6327-4725-B37A-9EF4DBFA8F2D_1_201_a.jpeg"
+          width="100%"
+        />
       </div>
+    </div>
       <div class="prayer-section">
           <div class="prayer-container">
             <div class="prayer-content">
@@ -91,5 +105,6 @@
         </div>
       </footer>
     <script src="js/script.js"></script>
+    <script src="js/covid-modal.js"></script>
   </body>
 </html>
