@@ -65,6 +65,30 @@ a:active {
   position: relative;
   bottom: 500px;
 }
+.previous-btn {
+  padding: 8px 16px;
+  margin: 20px 0px 0px 20px;
+}
+.previous-btn a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 20px 0px 0px 0px;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.previous-btn a:hover {
+  background-color: #white;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  border-radius: 2px;
+}
 .main-container {
   background-color: ;
   display: flex;
